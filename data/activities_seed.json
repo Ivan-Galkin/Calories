@@ -1,0 +1,138 @@
+{
+  "source": {
+    "name": "2024 Adult Compendium of Physical Activities, curated MVP subset",
+    "url": "https://pacompendium.com/wp-content/uploads/2024/03/4_2024_adult-compendium-tracking-guide-1-2024.pdf",
+    "notes": "MET values are starting estimates for consumer tracking, not medical measurements. Curate and verify exact codes before production release."
+  },
+  "calculation": "caloriesBurned = MET * 3.5 * bodyWeightKg / 200 * durationMinutes",
+  "activities": [
+    {
+      "id": "walking_general",
+      "name_en": "Walking, general",
+      "name_ru": "Ходьба, обычная",
+      "category_en": "Walking",
+      "category_ru": "Ходьба",
+      "met": 3.5,
+      "intensity": "moderate"
+    },
+    {
+      "id": "walking_brisk",
+      "name_en": "Walking, brisk pace",
+      "name_ru": "Ходьба, быстрый темп",
+      "category_en": "Walking",
+      "category_ru": "Ходьба",
+      "met": 4.3,
+      "intensity": "moderate"
+    },
+    {
+      "id": "running_general",
+      "name_en": "Running, general",
+      "name_ru": "Бег, общий",
+      "category_en": "Running",
+      "category_ru": "Бег",
+      "met": 8.0,
+      "intensity": "vigorous"
+    },
+    {
+      "id": "cycling_leisure",
+      "name_en": "Cycling, leisure",
+      "name_ru": "Велосипед, прогулочный темп",
+      "category_en": "Cycling",
+      "category_ru": "Велосипед",
+      "met": 4.0,
+      "intensity": "light"
+    },
+    {
+      "id": "cycling_moderate",
+      "name_en": "Cycling, moderate effort",
+      "name_ru": "Велосипед, умеренная нагрузка",
+      "category_en": "Cycling",
+      "category_ru": "Велосипед",
+      "met": 8.0,
+      "intensity": "moderate"
+    },
+    {
+      "id": "tennis_singles",
+      "name_en": "Tennis, singles",
+      "name_ru": "Теннис, одиночная игра",
+      "category_en": "Sports",
+      "category_ru": "Спорт",
+      "met": 8.0,
+      "intensity": "vigorous"
+    },
+    {
+      "id": "tennis_doubles",
+      "name_en": "Tennis, doubles",
+      "name_ru": "Теннис, парная игра",
+      "category_en": "Sports",
+      "category_ru": "Спорт",
+      "met": 6.0,
+      "intensity": "moderate"
+    },
+    {
+      "id": "padel",
+      "name_en": "Padel",
+      "name_ru": "Падел",
+      "category_en": "Sports",
+      "category_ru": "Спорт",
+      "met": 6.0,
+      "intensity": "moderate",
+      "notes": "Use tennis doubles/squash-style estimates as a placeholder until exact source mapping is finalized."
+    },
+    {
+      "id": "pickleball",
+      "name_en": "Pickleball",
+      "name_ru": "Пиклбол",
+      "category_en": "Sports",
+      "category_ru": "Спорт",
+      "met": 4.8,
+      "intensity": "moderate",
+      "notes": "Placeholder MET for MVP; verify against a production source before release."
+    },
+    {
+      "id": "volleyball_general",
+      "name_en": "Volleyball, general",
+      "name_ru": "Волейбол, общий",
+      "category_en": "Sports",
+      "category_ru": "Спорт",
+      "met": 4.0,
+      "intensity": "moderate"
+    },
+    {
+      "id": "beach_volleyball",
+      "name_en": "Beach volleyball",
+      "name_ru": "Пляжный волейбол",
+      "category_en": "Sports",
+      "category_ru": "Спорт",
+      "met": 8.0,
+      "intensity": "vigorous"
+    },
+    {
+      "id": "strength_training_general",
+      "name_en": "Strength training, general",
+      "name_ru": "Силовая тренировка, общая",
+      "category_en": "Gym",
+      "category_ru": "Зал",
+      "met": 3.5,
+      "intensity": "moderate"
+    },
+    {
+      "id": "yoga_general",
+      "name_en": "Yoga, general",
+      "name_ru": "Йога, общая",
+      "category_en": "Fitness",
+      "category_ru": "Фитнес",
+      "met": 2.5,
+      "intensity": "light"
+    },
+    {
+      "id": "swimming_general",
+      "name_en": "Swimming, general",
+      "name_ru": "Плавание, общее",
+      "category_en": "Swimming",
+      "category_ru": "Плавание",
+      "met": 6.0,
+      "intensity": "moderate"
+    }
+  ]
+}
