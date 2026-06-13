@@ -3,173 +3,157 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cashelec — платформа цифровых активов</title>
+    <meta name="description" content="Кошелёк.ру — продуктовая линейка инфраструктурных решений для цифровых активов, ЦФА, цифровой валюты, комплаенса, процессинга и B2B-расчетов." />
+    <title>Кошелёк.ру — продукты для цифровых активов</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <div class="site-shell">
-      <header class="header">
-        <a class="brand" href="#" aria-label="Cashelec">
-          <span class="brand-mark"></span>
-          <span class="brand-copy">
-            <strong>CASHELEC</strong>
-            <small>digital assets infrastructure</small>
-          </span>
+    <div class="page-shell">
+      <header class="header" data-header>
+        <a class="brand" href="#top" aria-label="Кошелёк.ру">
+          <span class="brand-mark" aria-hidden="true">₽</span>
+          <span class="brand-copy"><strong>Кошелёк.ру</strong><small>digital assets products</small></span>
         </a>
-        <nav class="nav" aria-label="Основная навигация">
-          <a href="#solutions">Решения</a>
-          <a href="#modules">Модули</a>
-          <a href="#cases">Сценарии</a>
-          <a href="#why">Почему мы</a>
-          <a href="#stages">Этапы</a>
-          <a href="#faq">FAQ</a>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-label="Открыть меню" aria-expanded="false"><span></span><span></span></button>
+        <nav class="nav" data-nav aria-label="Основная навигация">
+          <a href="#products">Продукты</a>
+          <a href="#platform">Платформа</a>
+          <a href="#scenarios">Сценарии</a>
+          <a href="#process">Внедрение</a>
           <a href="#contacts">Контакты</a>
         </nav>
-        <a class="header-cta" href="#contacts">Запросить консультацию</a>
+        <a class="header-phone" href="tel:88005555589">8 (800) 555-55-89</a>
       </header>
 
-      <main>
+      <main id="top">
         <section class="hero" aria-labelledby="hero-title">
-          <div class="hero-content">
-            <p class="eyebrow">White label fintech infrastructure</p>
-            <h1 id="hero-title">Разработка платформ цифровых активов и биржевой инфраструктуры <span>под ключ</span></h1>
-            <p class="hero-text">Запускайте собственные сервисы на базе готовой инфраструктуры: хранение, процессинг, P2P-сценарии, международные расчеты, комплаенс и API-интеграции.</p>
+          <div class="hero-copy">
+            <p class="eyebrow">B2B-инфраструктура для цифровых финансов</p>
+            <h1 id="hero-title">Продуктовая экосистема для операций с цифровыми активами</h1>
+            <p class="hero-text">Современная посадочная страница на базе продуктовой линейки Кошелёк.ру: учет, хранение, процессинг, обменные сценарии, комплаенс, Web3-инфраструктура и международные B2B-расчеты.</p>
             <div class="hero-actions">
-              <a class="primary-button" href="#contacts">Получить консультацию <span>→</span></a>
-              <a class="ghost-button" href="#modules">Запросить демонстрацию</a>
+              <a class="primary-button" href="#contacts">Обсудить внедрение</a>
+              <a class="secondary-button" href="#products">Смотреть продукты</a>
             </div>
-            <div class="metrics" aria-label="Ключевые преимущества">
-              <article><span>✦</span><strong>Быстрый запуск</strong><small>от 2 месяцев</small></article>
-              <article><span>⌁</span><strong>Готовые модули</strong><small>и API</small></article>
-              <article><span>⌬</span><strong>Надежная архитектура</strong><small>и безопасность</small></article>
-              <article><span>◌</span><strong>Поддержка</strong><small>24/7 после запуска</small></article>
+            <dl class="hero-stats" aria-label="Ключевые возможности">
+              <div><dt>20+</dt><dd>инфраструктурных продуктов</dd></div>
+              <div><dt>API</dt><dd>для интеграций и контроля операций</dd></div>
+              <div><dt>24/7</dt><dd>операционный контур и поддержка</dd></div>
+            </dl>
+          </div>
+          <div class="hero-card" aria-hidden="true">
+            <div class="orb orb-one"></div><div class="orb orb-two"></div>
+            <div class="dashboard-card main-card">
+              <span class="status-dot"></span>
+              <p>Unified asset operations</p>
+              <strong>₽ 42 850 000</strong>
+              <div class="flow-lines"><span></span><span></span><span></span></div>
             </div>
-          </div>
-
-          <div class="hero-visual" aria-hidden="true">
-            <div class="tech-grid"></div>
-            <span class="chip chip-1">Trading Engine</span>
-            <span class="chip chip-2">P2P</span>
-            <span class="chip chip-3">Wallet &amp; Custody</span>
-            <span class="chip chip-4">AML / KYC</span>
-            <span class="chip chip-5">API</span>
-            <span class="node node-1"></span>
-            <span class="node node-2"></span>
-            <span class="node node-3"></span>
-            <div class="platform-card">
-              <div class="platform-layer layer-back"></div>
-              <div class="platform-layer layer-mid"></div>
-              <div class="platform-layer layer-front"><span></span></div>
-            </div>
+            <div class="dashboard-card mini-card mini-card-one"><small>AML score</small><strong>Low risk</strong></div>
+            <div class="dashboard-card mini-card mini-card-two"><small>Settlement</small><strong>T+0 / API</strong></div>
           </div>
         </section>
 
-        <section id="why" class="why section-panel">
-          <div class="section-title compact">
-            <h2>Почему Cashelec</h2>
-            <p>Мы создаем технологическую инфраструктуру для проектов, работающих с цифровыми активами.</p>
+        <section class="trust-strip" aria-label="Контакты и юридическая информация">
+          <span>+7 (900) 555-55-89 для звонков по миру</span>
+          <span>8 (800) 555-55-89 для звонков по РФ</span>
+          <span>support@cashelec.ru</span>
+          <span>ИНН 7811454512</span>
+        </section>
+
+        <section id="platform" class="section intro-grid">
+          <div class="section-heading sticky-heading">
+            <p class="eyebrow">Единая платформа</p>
+            <h2>Основа для учета, хранения, операций и контроля</h2>
+            <p>Платформа объединяет цифровые счета, адреса-идентификаторы, операции, выписки, контрольные процедуры и интеграции с внешними финансовыми сервисами.</p>
           </div>
-          <div class="benefits-grid">
-            <article><span>⚙</span><strong>Более 20 готовых модулей</strong></article>
-            <article><span>▣</span><strong>White Label и кастомизация</strong></article>
-            <article><span>⌘</span><strong>API-first архитектура</strong></article>
-            <article><span>↗</span><strong>Масштабирование под рост бизнеса</strong></article>
-            <article><span>◇</span><strong>Безопасность на всех уровнях</strong></article>
-            <article><span>▢</span><strong>Поддержка и развитие после запуска</strong></article>
+          <div class="feature-stack">
+            <article><span>01</span><h3>Операционный продукт</h3><p>Клиентское обслуживание, исполнение операций, внутренний контроль и интеграция с цифровой инфраструктурой.</p></article>
+            <article><span>02</span><h3>Цифровой депозитарий</h3><p>Учет цифровой валюты и цифровых прав, адреса, выписки, статусы и контрольный журнал.</p></article>
+            <article><span>03</span><h3>Кастодиальный контур</h3><p>Безопасное хранение, кошельки, контрольные процедуры и транзакционный периметр.</p></article>
           </div>
         </section>
 
-        <section id="solutions" class="section-panel flat" aria-labelledby="solutions-title">
-          <div class="section-title"><h2 id="solutions-title">Какие решения мы создаем</h2></div>
-          <div class="solutions-grid">
-            <article class="solution-card"><span class="icon">↗</span><h3>Биржевая инфраструктура</h3><p>Платформы для бирж, обменов и торговых площадок</p><a href="#contacts" aria-label="Биржевая инфраструктура">↗</a></article>
-            <article class="solution-card"><span class="icon">◉</span><h3>Платежная инфраструктура</h3><p>Криптопроцессинг, прием платежей, карточные сценарии</p><a href="#contacts" aria-label="Платежная инфраструктура">↗</a></article>
-            <article class="solution-card"><span class="icon">⚙</span><h3>Кастодиальные решения</h3><p>Безопасное хранение и управление цифровыми активами</p><a href="#contacts" aria-label="Кастодиальные решения">↗</a></article>
-            <article class="solution-card"><span class="icon">◇</span><h3>Международные расчеты</h3><p>Трансграничные платежи и B2B-расчеты в цифровых активах</p><a href="#contacts" aria-label="Международные расчеты">↗</a></article>
-            <article class="solution-card"><span class="icon">⌬</span><h3>Корпоративные платформы</h3><p>Инструменты для VIP-клиентов и корпоративных пользователей</p><a href="#contacts" aria-label="Корпоративные платформы">↗</a></article>
-            <article class="solution-card"><span class="icon">▱</span><h3>Инфраструктура Web3</h3><p>Ноды, API и интеграционные сервисы для Web3-проектов</p><a href="#contacts" aria-label="Инфраструктура Web3">↗</a></article>
+        <section id="products" class="section products-section" aria-labelledby="products-title">
+          <div class="section-heading center">
+            <p class="eyebrow">Каталог продуктов</p>
+            <h2 id="products-title">Выберите готовый контур под задачу бизнеса</h2>
+            <p>Фильтруйте продукты по направлению или откройте карточку, чтобы увидеть, какие операционные сценарии закрывает модуль.</p>
+          </div>
+          <div class="filters" role="list" aria-label="Фильтр продуктов">
+            <button class="active" type="button" data-filter="all">Все</button>
+            <button type="button" data-filter="core">Ядро</button>
+            <button type="button" data-filter="payments">Платежи</button>
+            <button type="button" data-filter="risk">Риски</button>
+            <button type="button" data-filter="web3">Web3</button>
+          </div>
+          <div class="products-grid" data-products-grid>
+            <article class="product-card featured" data-category="core"><span class="product-tag">core</span><h3>Единая платформа для цифровых активов, ЦФА и цифровой валюты</h3><p>Технологическая основа для учета, хранения, операций, контроля, интеграций и прикладных финансовых сценариев.</p><button type="button" data-expand>Подробнее</button><ul><li>Единый операционный кабинет</li><li>Роли, лимиты и журналирование</li><li>API и интеграции</li></ul></article>
+            <article class="product-card" data-category="core"><span class="product-tag">core</span><h3>Уполномоченная организация</h3><p>Операционный продукт для клиентского обслуживания, исполнения операций и внутреннего контроля.</p><button type="button" data-expand>Подробнее</button><ul><li>Клиентские процедуры</li><li>Исполнение операций</li><li>Контрольный контур</li></ul></article>
+            <article class="product-card" data-category="core"><span class="product-tag">custody</span><h3>Цифровой депозитарий</h3><p>Инфраструктурный продукт для цифровых счетов, адресов-идентификаторов, операций и выписок.</p><button type="button" data-expand>Подробнее</button><ul><li>Цифровые счета</li><li>Учет прав и валюты</li><li>Выписки и статусы</li></ul></article>
+            <article class="product-card" data-category="core"><span class="product-tag">custody</span><h3>Криптокастодиан</h3><p>Решение для безопасного хранения и управления цифровыми активами.</p><button type="button" data-expand>Подробнее</button><ul><li>Горячие и холодные кошельки</li><li>Контроль транзакций</li><li>Корпоративные политики</li></ul></article>
+            <article class="product-card" data-category="payments"><span class="product-tag">payments</span><h3>Криптопроцессинг</h3><p>API-контур для адресов, статусов, подтверждений, сверки и уведомлений.</p><button type="button" data-expand>Подробнее</button><ul><li>Прием операций</li><li>Вебхуки и уведомления</li><li>Сверка платежей</li></ul></article>
+            <article class="product-card" data-category="payments"><span class="product-tag">exchange</span><h3>Обменные операции</h3><p>Продукт для заявок, котировок, лимитов, маршрутов исполнения и контрольных процедур.</p><button type="button" data-expand>Подробнее</button><ul><li>Котировки и заявки</li><li>Лимиты и маршруты</li><li>Операционный контроль</li></ul></article>
+            <article class="product-card" data-category="payments"><span class="product-tag">cash</span><h3>Обменные точки</h3><p>Решение для наличных и операционных сценариев с цифровыми активами.</p><button type="button" data-expand>Подробнее</button><ul><li>Кассовый сценарий</li><li>Операторские роли</li><li>Учет операций</li></ul></article>
+            <article class="product-card" data-category="payments"><span class="product-tag">atm</span><h3>Криптоматы</h3><p>Программная платформа для автоматизированного обменного сценария.</p><button type="button" data-expand>Подробнее</button><ul><li>Терминальные сценарии</li><li>Статусы операций</li><li>Мониторинг сети</li></ul></article>
+            <article class="product-card" data-category="payments"><span class="product-tag">liquidity</span><h3>Поставщик ликвидности</h3><p>Продукт для цифровых активов и обменных операций.</p><button type="button" data-expand>Подробнее</button><ul><li>Маршрутизация ликвидности</li><li>Котировки</li><li>Учет исполнения</li></ul></article>
+            <article class="product-card" data-category="risk"><span class="product-tag">risk</span><h3>Хэдж-сервис</h3><p>Управление рыночным риском цифровых активов.</p><button type="button" data-expand>Подробнее</button><ul><li>Риск-параметры</li><li>Лимиты</li><li>Отчеты по позициям</li></ul></article>
+            <article class="product-card" data-category="payments"><span class="product-tag">p2p</span><h3>P2P-контур</h3><p>Платформа для управляемых сделок с цифровыми активами.</p><button type="button" data-expand>Подробнее</button><ul><li>Сделки и статусы</li><li>Арбитражный контур</li><li>Платежные методы</li></ul></article>
+            <article class="product-card" data-category="risk"><span class="product-tag">compliance</span><h3>Комплаенс-сервис</h3><p>Проверки цифровых активов, платежей и клиентов.</p><button type="button" data-expand>Подробнее</button><ul><li>AML/KYC-процедуры</li><li>Санкционный контроль</li><li>Риск-скоринг</li></ul></article>
+            <article class="product-card" data-category="web3"><span class="product-tag">web3</span><h3>Web3 и on-chain-инфраструктура</h3><p>On-chain-инфраструктура для цифровых активов.</p><button type="button" data-expand>Подробнее</button><ul><li>RPC и события</li><li>Смарт-контрактные сценарии</li><li>Интеграции</li></ul></article>
+            <article class="product-card" data-category="payments"><span class="product-tag">b2b</span><h3>Трансграничные переводы</h3><p>Управляемый платежный и расчетный контур для международных сценариев.</p><button type="button" data-expand>Подробнее</button><ul><li>B2B-платежи</li><li>Расчетные маршруты</li><li>Операционные статусы</li></ul></article>
+            <article class="product-card" data-category="core"><span class="product-tag">invest</span><h3>Регулируемый инвестиционный контур</h3><p>Инвестиционные сценарии для цифровых активов.</p><button type="button" data-expand>Подробнее</button><ul><li>Профили инвесторов</li><li>Лимиты и допуски</li><li>Отчетность</li></ul></article>
+            <article class="product-card" data-category="payments"><span class="product-tag">credit</span><h3>Кредитование под залог</h3><p>Кредитные сценарии под залог цифровых активов.</p><button type="button" data-expand>Подробнее</button><ul><li>Оценка залога</li><li>Контроль LTV</li><li>События ликвидации</li></ul></article>
+            <article class="product-card" data-category="payments"><span class="product-tag">card</span><h3>Дебетовая карта</h3><p>Расчетный контур от цифровых активов к фиатному балансу.</p><button type="button" data-expand>Подробнее</button><ul><li>Фиатный баланс</li><li>Конвертация</li><li>Карточные операции</li></ul></article>
+            <article class="product-card" data-category="core"><span class="product-tag">yield</span><h3>Доходные сценарии</h3><p>Продукты для работы с доходностью на цифровые активы.</p><button type="button" data-expand>Подробнее</button><ul><li>Пулы и стратегии</li><li>Начисления</li><li>Прозрачная отчетность</li></ul></article>
+            <article class="product-card" data-category="risk"><span class="product-tag">quorum</span><h3>Кворумное управление</h3><p>Управление цифровыми активами для VIP и корпоративных клиентов.</p><button type="button" data-expand>Подробнее</button><ul><li>Мультисогласование</li><li>Корпоративные роли</li><li>Контроль операций</li></ul></article>
+            <article class="product-card" data-category="core"><span class="product-tag">escrow</span><h3>Цифровые escrow-счета</h3><p>Сделки с контролируемым исполнением условий.</p><button type="button" data-expand>Подробнее</button><ul><li>Условия сделки</li><li>События исполнения</li><li>Защита сторон</li></ul></article>
+            <article class="product-card" data-category="payments"><span class="product-tag">stablecoin</span><h3>Стейблкоин и расчетная инфраструктура</h3><p>Международные B2B-сценарии и расчетная инфраструктура.</p><button type="button" data-expand>Подробнее</button><ul><li>Расчетные единицы</li><li>B2B-контуры</li><li>Учет резервов</li></ul></article>
+            <article class="product-card" data-category="web3"><span class="product-tag">nodes</span><h3>SaaS-ноды</h3><p>Надежное подключение к блокчейн-сетям и цифровой инфраструктуре.</p><button type="button" data-expand>Подробнее</button><ul><li>Управляемые ноды</li><li>Мониторинг</li><li>SLA-подход</li></ul></article>
+            <article class="product-card" data-category="risk"><span class="product-tag">routing</span><h3>Антикластеризация адресов</h3><p>Система риск-менеджмента и маршрутизации операций.</p><button type="button" data-expand>Подробнее</button><ul><li>Маршруты операций</li><li>Снижение кластерных рисков</li><li>Мониторинг связей</li></ul></article>
           </div>
         </section>
 
-        <section id="modules" class="section-panel flat">
-          <div class="section-title"><h2>Готовые модули платформы</h2></div>
-          <div class="modules-grid">
-            <article><span class="icon">↗</span><h3>Торговый контур</h3><ul><li>Matching Engine</li><li>P2P-модуль</li><li>OTC-сценарии</li><li>Ордер-менеджмент</li><li>Маркет-данные</li></ul></article>
-            <article><span class="icon">◈</span><h3>Хранение</h3><ul><li>Кастодиальный контур</li><li>Мультиподпись (MPC)</li><li>Цифровой депозитарий</li><li>Холодное и горячее хранение</li><li>Управление ключами</li></ul></article>
-            <article><span class="icon">▣</span><h3>Платежи</h3><ul><li>Криптопроцессинг</li><li>Массовые выплаты</li><li>Международные расчеты</li><li>Фиатные шлюзы</li><li>Карточные сценарии</li></ul></article>
-            <article><span class="icon">◇</span><h3>Комплаенс</h3><ul><li>AML</li><li>KYC</li><li>Мониторинг операций</li><li>Скоринг и риск-оценка</li><li>Санкционный контроль</li></ul></article>
-            <article><span class="icon">▱</span><h3>Инфраструктура</h3><ul><li>Web3-интеграции</li><li>SaaS-ноды</li><li>API Gateway</li><li>RPC</li><li>События и вебхуки</li></ul></article>
+        <section id="scenarios" class="section scenario-section">
+          <div class="section-heading"><p class="eyebrow">Сценарии</p><h2>Соберите продуктовую конфигурацию под ваш запуск</h2></div>
+          <div class="scenario-grid">
+            <article><h3>Финтех-платформа</h3><p>Платформа, депозитарий, комплаенс, процессинг и клиентское обслуживание.</p></article>
+            <article><h3>Обменный бизнес</h3><p>Обменные операции, ликвидность, P2P, криптоматы и кассовые сценарии.</p></article>
+            <article><h3>Корпоративное казначейство</h3><p>Кастодиан, кворумное управление, хеджирование и B2B-переводы.</p></article>
+            <article><h3>Web3-инфраструктура</h3><p>SaaS-ноды, on-chain-интеграции, адресный риск-менеджмент и API.</p></article>
           </div>
         </section>
 
-        <section id="stages" class="process">
-          <div class="process-title"><h2>Как мы работаем</h2><p>Прозрачный процесс от идеи до масштабируемой платформы.</p></div>
-          <div class="steps-grid">
-            <article><strong>01</strong><span>◉</span><h3>Анализируем задачу</h3><p>Изучаем бизнес-модель и цели проекта</p></article>
-            <article><strong>02</strong><span>▱</span><h3>Формируем архитектуру</h3><p>Подбираем необходимые модули и технологии</p></article>
-            <article><strong>03</strong><span>⌬</span><h3>Собираем решение</h3><p>Используем готовые модули и разрабатываем уникальный функционал</p></article>
-            <article><strong>04</strong><span>◇</span><h3>Интегрируем</h3><p>Подключаем внешние сервисы, платежи, API</p></article>
-            <article><strong>05</strong><span>⌘</span><h3>Запускаем MVP</h3><p>Быстро выводим продукт на рынок</p></article>
-            <article><strong>06</strong><span>◎</span><h3>Масштабируем</h3><p>Развиваем платформу по мере роста бизнеса</p></article>
-          </div>
+        <section id="process" class="section process-section">
+          <div class="section-heading center"><p class="eyebrow">Внедрение</p><h2>От выбора продуктов до промышленного запуска</h2></div>
+          <ol class="timeline">
+            <li><span>1</span><h3>Аудит задачи</h3><p>Фиксируем бизнес-сценарий, ограничения, роли и требования к контролю.</p></li>
+            <li><span>2</span><h3>Архитектура</h3><p>Подбираем продуктовые модули, интеграции, API и операционную модель.</p></li>
+            <li><span>3</span><h3>Настройка</h3><p>Конфигурируем лимиты, маршруты, справочники, пользовательские роли и кабинеты.</p></li>
+            <li><span>4</span><h3>Запуск</h3><p>Передаем документацию, подключаем мониторинг и сопровождаем эксплуатацию.</p></li>
+          </ol>
         </section>
 
-        <section id="cases" class="section-panel split flat">
-          <div>
-            <h2>Почему не разработка с нуля?</h2>
-            <div class="compare-box">
-              <article><h3><span class="check">✓</span>С Cashelec</h3><ul><li>Запуск от 2–4 месяцев</li><li>Готовые модули и проверенные решения</li><li>API и интеграции</li><li>Техническая поддержка 24/7</li><li>Масштабируемая архитектура</li></ul></article>
-              <article><h3><span class="cross">×</span>Разработка с нуля</h3><ul><li>8–18 месяцев разработки</li><li>Высокие риски и перерасход бюджета</li><li>Каждый компонент создается отдельно</li><li>Сложности с интеграциями</li><li>Длительный вывод на рынок</li></ul></article>
-            </div>
-          </div>
-          <div>
-            <h2>Типовые сценарии</h2>
-            <div class="case-grid">
-              <article><span>♙</span><h3>White Label-платформа</h3><p>Быстрый запуск сервиса под вашим брендом</p></article>
-              <article><span>◎</span><h3>Международные расчеты</h3><p>B2B-платежи и трансграничные сценарии</p></article>
-              <article><span>▱</span><h3>Кастодиальный сервис</h3><p>Безопасное хранение и управление активами</p></article>
-              <article><span>▤</span><h3>Платежный контур</h3><p>Прием, обработка и учет операций</p></article>
-              <article><span>◇</span><h3>P2P-инфраструктура</h3><p>Платформа для прямого обмена между пользователями</p></article>
-              <article><span>⌘</span><h3>Корпоративные решения</h3><p>Инструменты для VIP- и B2B-клиентов</p></article>
-            </div>
-          </div>
-        </section>
-
-        <section id="faq" class="section-panel flat">
-          <h2>Частые вопросы</h2>
-          <div class="faq-grid">
-            <details><summary>Сколько стоит запуск платформы?</summary><p>Стоимость зависит от состава модулей, интеграций и уровня кастомизации.</p></details>
-            <details><summary>Какие сроки реализации?</summary><p>MVP можно запустить за 2–4 месяца, комплексные платформы требуют больше времени.</p></details>
-            <details><summary>Можно ли дорабатывать систему?</summary><p>Да, архитектура рассчитана на развитие и подключение новых сценариев.</p></details>
-            <details><summary>Можно ли использовать только отдельные модули?</summary><p>Да, модули можно внедрять отдельно и интегрировать в существующую систему.</p></details>
-            <details><summary>Есть ли API и возможность интеграции?</summary><p>Да, решения строятся вокруг API-first подхода и вебхуков.</p></details>
-            <details><summary>Подходит ли решение для нетиповых проектов?</summary><p>Да, готовые блоки комбинируются с индивидуальной разработкой.</p></details>
-          </div>
-        </section>
-
-        <section id="contacts" class="contact">
-          <div class="contact-copy"><h2>Обсудим ваш проект</h2><p>Получите консультацию технического специалиста и рекомендации по архитектуре будущей платформы.</p></div>
-          <form class="contact-form">
-            <input type="text" placeholder="Ваше имя*" aria-label="Ваше имя" />
-            <input type="text" placeholder="Компания" aria-label="Компания" />
-            <input type="email" placeholder="Email*" aria-label="Email" />
-            <input type="tel" placeholder="Телефон" aria-label="Телефон" />
-            <textarea placeholder="Опишите задачу" aria-label="Опишите задачу"></textarea>
-            <button type="submit">Получить консультацию <span>→</span></button>
-            <label><input type="checkbox" /> Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности</label>
+        <section id="contacts" class="contact-section">
+          <div><p class="eyebrow">Связаться</p><h2>Получите консультацию по продуктовой линейке</h2><p>Опишите задачу — мы предложим набор модулей, который подойдет для вашего операционного контура.</p></div>
+          <form class="contact-form" data-contact-form>
+            <label><span>Имя</span><input name="name" type="text" placeholder="Как к вам обращаться" required /></label>
+            <label><span>Email или телефон</span><input name="contact" type="text" placeholder="mail@company.ru" required /></label>
+            <label class="wide"><span>Задача</span><textarea name="message" placeholder="Например: нужен процессинг и комплаенс-контур" rows="4"></textarea></label>
+            <button type="submit">Сформировать заявку</button>
+            <p class="form-note" data-form-note>Форма сформирует письмо в почтовом клиенте. Можно также написать на support@cashelec.ru.</p>
           </form>
         </section>
       </main>
 
       <footer class="footer">
-        <a class="brand" href="#" aria-label="Cashelec"><span class="brand-mark"></span><span class="brand-copy"><strong>CASHELEC</strong><small>digital assets infrastructure</small></span></a>
-        <div><h4>Решения</h4><a>Биржевая инфраструктура</a><a>Платежная инфраструктура</a><a>Кастодиальные решения</a><a>Международные расчеты</a><a>Корпоративные платформы</a><a>Инфраструктура Web3</a></div>
-        <div><h4>Модули</h4><a>Торговый контур</a><a>Хранение</a><a>Платежи</a><a>Комплаенс</a><a>Инфраструктура</a></div>
-        <div><h4>Компания</h4><a>О нас</a><a>Преимущества</a><a>Кейсы</a><a>Этапы работы</a><a>FAQ</a><a>Контакты</a></div>
-        <div><h4>Email</h4><a>info@cashelec.ru</a><h4>Telegram</h4><a>@cashelec</a><p>© Cashelec, 2026<br />Все права защищены</p></div>
+        <div><strong>Кошелёк.ру</strong><p>Товарный знак Кошелёк.ру принадлежит ООО «Кошелёк.ру».</p></div>
+        <div><span>Адрес</span><p>197046, Санкт-Петербург, Большая Посадская ул., д. 12 литер А, помещ. 79-Н</p></div>
+        <div><span>Контакты</span><a href="tel:+79005555589">+7 (900) 555-55-89</a><a href="tel:88005555589">8 (800) 555-55-89</a><a href="mailto:support@cashelec.ru">support@cashelec.ru</a></div>
       </footer>
     </div>
   </body>
